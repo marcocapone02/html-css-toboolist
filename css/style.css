@@ -39,6 +39,7 @@ main{
   border-radius: 10px;
 }
 
+/*TASTI*/
 main .buttons{
   padding: 25px 100px 15px;
   border-bottom: 3px solid #f6f8f9;
@@ -63,24 +64,28 @@ main .buttons #button2{
   background-color: white;
 }
 
+/*MARGINE TASK*/
 main .tasks{
-  padding: 50px 100px;
+  padding: 0 100px;
 }
 
+/*TITOLI SEZIONI TASK*/
 .title2{
   font-size: 35px;
   font-weight: bold;
   color: #444851;
 }
 
+/*NOMI ELEMENTI TASK*/
 .title3{
   font-size: 30px;
   margin-left: 10px;
   color: #444851;
 }
 
+/*MARGINE FRA TITOLI DEL TASK*/
 .title3-content{
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .check{
@@ -94,16 +99,53 @@ main .tasks{
   color: #5abba2;
 }
 
-.type-task{
-  font-size: 15px;
+
+.cross{
+  height: 27px;
+  width: 27px;
   text-align: center;
-  vertical-align: middle;
+  border: 2px solid #EB5951;
+  border-radius: 50%;
+  font-weight: bold;
+  display: inline-block;
+  color: #EB5951;
+}
+
+/*CONTENITORE TIPO SEZIONE*/
+.type-task{
+  color: white;
+  font-size: 18px;
   padding: 10px 20px;
   border-radius: 15px;
   display: inline-block;
 }
 
+/*MARGINE SUPERIORE DEL TASK*/
+.task{
+  margin-top: 50px;
+}
+
+/*COLORI TIPO SEZIONE*/
+
 #editorial{
-  color: white;
   background-color: #47adf1;
+}
+
+#q1goals{
+  background-color: #9C72E4;
+}
+#recruiting{
+  background-color: #64C0A9;
+}
+
+#mobile{
+  background-color: #F29E33;
+}
+
+#website{
+  background-color: #D863A1;
+}
+
+#sales{
+  background-color: #B0C926;
 }
